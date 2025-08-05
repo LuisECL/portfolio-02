@@ -1,69 +1,42 @@
-# React + TypeScript + Vite
+# Luis Cárcamo - Full Stack Web Dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## English
+This is my personal developer portfolio built with **React**, showcasing my skills, experience, and selected full-stack projects using technologies like **Node.js**, **SQL Server**, **AdonisJS**, and **Azure**.
 
-Currently, two official plugins are available:
+### 🚀 Live Site
+[https://your-custom-domain.com](https://your-custom-domain.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🧠 About This Project
+This single-page application serves as my professional portfolio and includes:
+- A brief personal introduction
+- A curated list of selected projects (with links to GitHub and live demos)
+- Technical skills and tools I work with
+- Downloadable resume and contact information
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Português
+Este é o meu portfólio pessoal como desenvolvedor, construído com **React**, apresentando minhas habilidades, experiências e projetos full stack selecionados com tecnologias como **Node.js**, **SQL Server**, **AdonisJS** e **Azure**.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 🚀 Site ao Vivo
+[https://your-custom-domain.com](https://your-custom-domain.com)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### 🧠 Sobre Este Projeto
+Esta aplicação de página única (SPA) serve como meu portfólio profissional e inclui:
+- Uma breve apresentação pessoal
+- Uma lista curada de projetos selecionados (com links para o GitHub e demonstrações ao vivo)
+- Habilidades técnicas e ferramentas com as quais trabalho
+- Currículo para download e informações de contato
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Español
+Este es mi portafolio personal como desarrollador, construido con **React**, en el que muestro mis habilidades, experiencia y una selección de proyectos full stack usando tecnologías como **Node.js**, **SQL Server**, **AdonisJS** y **Azure**.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🚀 Sitio en Vivo
+[https://your-custom-domain.com](https://your-custom-domain.com)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🧠 Sobre Este Proyecto
+Esta aplicación de una sola página (SPA) funciona como mi portafolio profesional e incluye:
+- Una breve presentación personal
+- Una lista curada de proyectos seleccionados (con enlaces a GitHub y demos en vivo)
+- Habilidades técnicas y herramientas que manejo
+- Currículum descargable e información de contacto
